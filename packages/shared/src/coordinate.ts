@@ -67,6 +67,10 @@ export class Rect implements IRect {
   get bottom() {
     return this.y + this.height
   }
+
+  toJSON() {
+    return this.toString()
+  }
 }
 
 export class LineSegment {

@@ -18,14 +18,14 @@ import {
   ViewPanel,
   SettingsPanel,
   ComponentTreeWidget,
-} from '@designable/react'
-import { SettingsForm } from '@designable/react-settings-form'
+} from '@kokoro/designable-react'
+import { SettingsForm } from '@kokoro/designable-react-settings-form'
 import {
   createDesigner,
   GlobalRegistry,
   Shortcut,
   KeyCode,
-} from '@designable/core'
+} from '@kokoro/designable-core'
 import {
   LogoWidget,
   ActionsWidget,

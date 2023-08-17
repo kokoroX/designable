@@ -1,1 +1,1 @@
-# @designable/react-settings-form
+# @kokoro/designable-react-settings-form

@@ -5,6 +5,7 @@
     "paths": {
       "@designable/*": ["../*"]
     },
-    "declaration": true
+    "declaration": true,
+    "preserveSymlinks": true
   }
 }

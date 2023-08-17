@@ -1,6 +1,6 @@
 import React from 'react'
-import { TreeNode } from '@designable/core'
-import { useSelectedNode } from '@designable/react'
+import { TreeNode } from '@kokoro/designable-core'
+import { useSelectedNode } from '@kokoro/designable-react'
 import { TreeSelectProps, TreeSelect } from 'antd'
 
 export interface IPathSelectorProps

@@ -1,4 +1,4 @@
-import { TreeNode } from '@designable/core'
+import { TreeNode } from '@kokoro/designable-core'
 import React, { createContext } from 'react'
 
 interface INodeContext {

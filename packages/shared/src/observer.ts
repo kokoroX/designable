@@ -1,3 +1,5 @@
+import { ResizeObserver } from '@juggle/resize-observer'
+
 export class LayoutObserver {
   private resizeObserver: ResizeObserver
 

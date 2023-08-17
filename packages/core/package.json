@@ -1,5 +1,5 @@
 {
-  "name": "@designable/core",
+  "name": "@kokoro/designable-core",
   "version": "1.0.0-beta.45",
   "license": "MIT",
   "main": "lib",

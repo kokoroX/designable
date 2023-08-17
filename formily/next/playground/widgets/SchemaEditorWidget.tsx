@@ -3,8 +3,8 @@ import {
   transformToSchema,
   transformToTreeNode,
 } from '@designable/formily-transformer'
-import { TreeNode, ITreeNode } from '@designable/core'
-import { MonacoInput } from '@designable/react-settings-form'
+import { TreeNode, ITreeNode } from '@kokoro/designable-core'
+import { MonacoInput } from '@kokoro/designable-react-settings-form'
 
 export interface ISchemaEditorWidgetProps {
   tree: TreeNode

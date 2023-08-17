@@ -1,1 +1,1 @@
-# @designable/react
+# @kokoro/designable-react

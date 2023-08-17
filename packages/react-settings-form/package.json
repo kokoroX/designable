@@ -1,5 +1,5 @@
 {
-  "name": "@designable/react-settings-form",
+  "name": "@kokoro/designable-react-settings-form",
   "version": "1.0.0-beta.45",
   "license": "MIT",
   "main": "lib",
@@ -23,27 +23,27 @@
     "build:umd": "rollup --config"
   },
   "peerDependencies": {
-    "@formily/antd": "^2.0.2",
-    "@formily/core": "^2.0.2",
-    "@formily/react": "^2.0.2",
-    "@formily/reactive": "^2.0.2",
-    "@formily/reactive-react": "^2.0.2",
-    "@formily/shared": "^2.0.2",
-    "antd": "^4.0.0"
+    "@formily/antd": "npm:@formily/antd-v5@1.1.1",
+    "@formily/core": "^2.2.0",
+    "@formily/react": "^2.2.0",
+    "@formily/reactive": "^2.2.0",
+    "@formily/reactive-react": "^2.2.0",
+    "@formily/shared": "^2.2.0",
+    "antd": "^5.0.0"
   },
   "devDependencies": {
-    "@formily/antd": "^2.0.2",
-    "@formily/core": "^2.0.2",
-    "@formily/react": "^2.0.2",
-    "@formily/reactive": "^2.0.2",
-    "@formily/reactive-react": "^2.0.2",
-    "@formily/shared": "^2.0.2",
-    "antd": "^4.15.5"
+    "@formily/antd": "npm:@formily/antd-v5@1.1.1",
+    "@formily/core": "^2.2.0",
+    "@formily/react": "^2.2.0",
+    "@formily/reactive": "^2.2.0",
+    "@formily/reactive-react": "^2.2.0",
+    "@formily/shared": "^2.2.0",
+    "antd": "^5.8.3"
   },
   "dependencies": {
     "@babel/parser": "^7.14.7",
-    "@designable/core": "1.0.0-beta.45",
-    "@designable/react": "1.0.0-beta.45",
+    "@kokoro/designable-core": "1.0.0-beta.45",
+    "@kokoro/designable-react": "1.0.0-beta.45",
     "@designable/shared": "1.0.0-beta.45",
     "@monaco-editor/react": "^4.2.1",
     "monaco-editor": "^0.25.2",

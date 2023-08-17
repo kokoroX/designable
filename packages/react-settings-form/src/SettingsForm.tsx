@@ -11,7 +11,7 @@ import {
   useWorkbench,
   IconWidget,
   NodePathWidget,
-} from '@designable/react'
+} from '@kokoro/designable-react'
 import { SchemaField } from './SchemaField'
 import { ISettingFormProps } from './types'
 import { SettingsFormContext } from './shared/context'

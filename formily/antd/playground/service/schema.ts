@@ -1,4 +1,4 @@
-import { Engine } from '@designable/core'
+import { Engine } from '@kokoro/designable-core'
 import {
   transformToSchema,
   transformToTreeNode,

@@ -1,12 +1,16 @@
 import React from 'react'
 import { FormGrid as FormilyGird } from '@formily/next'
-import { TreeNode, createBehavior, createResource } from '@designable/core'
+import {
+  TreeNode,
+  createBehavior,
+  createResource,
+} from '@kokoro/designable-core'
 import {
   DnFC,
   DroppableWidget,
   useTreeNode,
   useNodeIdProps,
-} from '@designable/react'
+} from '@kokoro/designable-react'
 import { observer } from '@formily/reactive-react'
 import { LoadTemplate } from '../../common/LoadTemplate'
 import { createFieldSchema } from '../Field'

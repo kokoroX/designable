@@ -5,7 +5,7 @@ import {
   useWorkspace,
   useLayout,
   usePrefix,
-} from '@designable/react'
+} from '@kokoro/designable-react'
 import ReactDOM from 'react-dom'
 
 export interface ISandboxProps {

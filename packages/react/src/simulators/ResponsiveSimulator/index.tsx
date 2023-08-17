@@ -6,7 +6,7 @@ import {
   DragMoveEvent,
   DragStopEvent,
   CursorDragType,
-} from '@designable/core'
+} from '@kokoro/designable-core'
 import {
   calcSpeedFactor,
   createUniformSpeedAnimation,

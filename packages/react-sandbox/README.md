@@ -1,1 +1,1 @@
-# @designable/react-sandbox
+# @kokoro/designable-react-sandbox

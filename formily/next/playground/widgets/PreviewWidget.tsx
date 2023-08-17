@@ -30,7 +30,7 @@ import {
   ArrayCards,
 } from '@formily/next'
 import { Card, Range, Rating } from '@alifd/next'
-import { TreeNode } from '@designable/core'
+import { TreeNode } from '@kokoro/designable-core'
 import { transformToSchema } from '@designable/formily-transformer'
 
 const Text: React.FC<{

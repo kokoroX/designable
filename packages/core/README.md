@@ -1,1 +1,1 @@
-# @designable/core
+# @kokoro/designable-core

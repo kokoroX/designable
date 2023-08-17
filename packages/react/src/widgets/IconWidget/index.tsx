@@ -50,7 +50,7 @@ export const IconWidget: React.FC<IIconWidgetProps> & {
       })
     } else if (React.isValidElement(infer)) {
       if (infer.type === 'svg') {
-        return React.cloneElement(infer, {
+        return React.cloneElement(infer as React.ReactSVGElement, {
           height,
           width,
           fill: 'currentColor',

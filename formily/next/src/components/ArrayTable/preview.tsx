@@ -1,14 +1,18 @@
 import React from 'react'
 import { Table } from '@alifd/next'
 import { TableProps } from '@alifd/next/types/table'
-import { TreeNode, createBehavior, createResource } from '@designable/core'
+import {
+  TreeNode,
+  createBehavior,
+  createResource,
+} from '@kokoro/designable-core'
 import {
   useTreeNode,
   TreeNodeWidget,
   DroppableWidget,
   useNodeIdProps,
   DnFC,
-} from '@designable/react'
+} from '@kokoro/designable-react'
 import { ArrayBase } from '@formily/next'
 import { observer } from '@formily/react'
 import { LoadTemplate } from '../../common/LoadTemplate'
