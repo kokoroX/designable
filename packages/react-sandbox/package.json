@@ -1,6 +1,6 @@
 {
   "name": "@kokoro/designable-react-sandbox",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -26,8 +26,8 @@
     "react": "16.x || 17.x"
   },
   "dependencies": {
-    "@kokoro/designable-react": "1.0.2",
-    "@kokoro/designable-shared": "1.0.2"
+    "@kokoro/designable-react": "1.0.3",
+    "@kokoro/designable-shared": "1.0.3"
   },
   "publishConfig": {
     "access": "public"

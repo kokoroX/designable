@@ -2,7 +2,7 @@ import React from 'react'
 import {
   transformToSchema,
   transformToTreeNode,
-} from '@designable/formily-transformer'
+} from '@kokoro/designable-formily-transformer'
 import { TreeNode, ITreeNode } from '@kokoro/designable-core'
 import { MonacoInput } from '@kokoro/designable-react-settings-form'
 

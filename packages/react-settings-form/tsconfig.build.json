@@ -3,7 +3,7 @@
   "compilerOptions": {
     "outDir": "./lib",
     "paths": {
-      "@designable/*": ["../*"]
+      "@kokoro/designable-*": ["../*"]
     },
     "declaration": true,
     "preserveSymlinks": true

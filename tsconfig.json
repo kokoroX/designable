@@ -16,7 +16,7 @@
     "preserveSymlinks": true,
     "baseUrl": ".",
     "paths": {
-      "@designable/*": ["./packages/*/src"]
+      "@kokoro/designable-*": ["./packages/*/src"]
     }
   }
 }

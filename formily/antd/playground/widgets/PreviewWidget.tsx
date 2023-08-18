@@ -31,7 +31,7 @@ import {
 } from '@formily/antd'
 import { Card, Slider, Rate } from 'antd'
 import { TreeNode } from '@kokoro/designable-core'
-import { transformToSchema } from '@designable/formily-transformer'
+import { transformToSchema } from '@kokoro/designable-formily-transformer'
 
 const Text: React.FC<{
   value?: string
