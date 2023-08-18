@@ -1,6 +1,6 @@
 {
   "name": "@kokoro/designable-shared",
-  "version": "1.0.4",
+  "version": "1.0.5-alpha.0",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",

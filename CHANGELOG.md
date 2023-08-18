@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.4(2023-08-18)
+
+### No Change Log
+
 ## v1.0.3(2023-08-18)
 
 ### No Change Log
@@ -393,11 +397,3 @@
 ### :beetle: Bug Fixes
 
 1. [fix(shared): fix batch add event conflict with multi engine](https://github.com/alibaba/designable/commit/a92f56b) :point_right: ( [zhili.wzl](https://github.com/zhili.wzl) )
-
-## v1.0.0-beta.9(2021-09-27)
-
-### :beetle: Bug Fixes
-
-1. [fix(core): fix event driver conflict](https://github.com/alibaba/designable/commit/af41004) :point_right: ( [zhili.wzl](https://github.com/zhili.wzl) )
-
-1. [fix(formily): fix FormLayout locales](https://github.com/alibaba/designable/commit/ea2648a) :point_right: ( [zhili.wzl](https://github.com/zhili.wzl) )
