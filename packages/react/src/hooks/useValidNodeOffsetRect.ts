@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo, useCallback } from 'react'
 import { TreeNode, CursorStatus, CursorDragType } from '@kokoro/designable-core'
-import { LayoutObserver } from '@designable/shared'
+import { LayoutObserver } from '@kokoro/designable-shared'
 import { useViewport } from './useViewport'
 import { useDesigner } from './useDesigner'
 

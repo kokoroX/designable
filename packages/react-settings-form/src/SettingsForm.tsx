@@ -2,7 +2,7 @@ import React, { useMemo } from 'react'
 import { createForm } from '@formily/core'
 import { Form } from '@formily/antd'
 import { observer } from '@formily/react'
-import { requestIdle, cancelIdle } from '@designable/shared'
+import { requestIdle, cancelIdle } from '@kokoro/designable-shared'
 import {
   usePrefix,
   useSelected,

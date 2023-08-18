@@ -1,4 +1,3 @@
-import 'antd/dist/antd.less'
 import '@alifd/next/dist/next.css'
 import React, { useMemo } from 'react'
 import ReactDOM from 'react-dom'

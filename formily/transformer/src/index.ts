@@ -1,6 +1,6 @@
 import { ISchema, Schema } from '@formily/json-schema'
 import { ITreeNode } from '@kokoro/designable-core'
-import { clone, uid } from '@designable/shared'
+import { clone, uid } from '@kokoro/designable-shared'
 
 export interface ITransformerOptions {
   designableFieldName?: string

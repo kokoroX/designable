@@ -9,7 +9,7 @@ import {
 import * as monaco from 'monaco-editor/esm/vs/editor/editor.api'
 import { Tooltip } from 'antd'
 import { parseExpression, parse } from '@babel/parser'
-import { uid } from '@designable/shared'
+import { uid } from '@kokoro/designable-shared'
 import { format } from './format'
 import cls from 'classnames'
 import './styles.less'

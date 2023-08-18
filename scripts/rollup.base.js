@@ -28,7 +28,7 @@ const presets = () => {
     '@formily/core': 'Formily.Core',
     '@formily/json-schema': 'Formily.JSONSchema',
     '@formily/react': 'Formily.React',
-    '@designable/shared': 'Designable.Shared',
+    '@kokoro/designable-shared': 'Designable.Shared',
     '@kokoro/designable-core': 'Designable.Core',
     '@kokoro/designable-react': 'Designable.React',
     '@kokoro/designable-react-sandbox': 'Designable.ReactSandbox',

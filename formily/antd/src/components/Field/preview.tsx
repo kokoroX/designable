@@ -19,7 +19,7 @@ import {
   useComponents,
   DnFC,
 } from '@kokoro/designable-react'
-import { isArr, isStr } from '@designable/shared'
+import { isArr, isStr } from '@kokoro/designable-shared'
 import { Container } from '../../common/Container'
 import { AllLocales } from '../../locales'
 

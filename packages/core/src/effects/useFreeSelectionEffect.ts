@@ -5,7 +5,7 @@ import {
   isCrossRectInRect,
   isRectInRect,
   Point,
-} from '@designable/shared'
+} from '@kokoro/designable-shared'
 
 export const useFreeSelectionEffect = (engine: Engine) => {
   engine.subscribeTo(DragStopEvent, (event) => {

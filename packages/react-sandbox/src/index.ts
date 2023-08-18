@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react'
-import { isFn, globalThisPolyfill } from '@designable/shared'
+import { isFn, globalThisPolyfill } from '@kokoro/designable-shared'
 import {
   useDesigner,
   useWorkspace,

@@ -6,7 +6,7 @@ import { OutlineTreeNode } from './OutlineNode'
 import { Insertion } from './Insertion'
 import { TreeNode, Viewport } from '@kokoro/designable-core'
 import { NodeContext } from './context'
-import { globalThisPolyfill } from '@designable/shared'
+import { globalThisPolyfill } from '@kokoro/designable-shared'
 
 export interface IOutlineTreeWidgetProps {
   className?: string

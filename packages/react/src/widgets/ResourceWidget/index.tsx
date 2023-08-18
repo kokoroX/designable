@@ -5,7 +5,7 @@ import {
   IResourceLike,
   IResource,
 } from '@kokoro/designable-core'
-import { isFn } from '@designable/shared'
+import { isFn } from '@kokoro/designable-shared'
 import { observer } from '@formily/reactive-react'
 import { usePrefix } from '../../hooks'
 import { IconWidget } from '../IconWidget'

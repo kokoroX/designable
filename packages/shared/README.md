@@ -1,1 +1,1 @@
-# @designable/shared
+# @kokoro/designable-shared

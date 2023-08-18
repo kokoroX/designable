@@ -1,7 +1,7 @@
 import { useContext, useEffect } from 'react'
 import { Engine } from '@kokoro/designable-core'
 import { DesignerEngineContext } from '../context'
-import { isFn, globalThisPolyfill } from '@designable/shared'
+import { isFn, globalThisPolyfill } from '@kokoro/designable-shared'
 export interface IEffects {
   (engine: Engine): void
 }

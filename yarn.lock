@@ -1152,6 +1152,64 @@
   resolved "https://registry.npmmirror.com/@ctrl/tinycolor/-/tinycolor-3.6.0.tgz#53fa5fe9c34faee89469e48f91d51a3766108bc8"
   integrity sha512-/Z3l6pXthq0JvMYdUFyX9j0MaCltlIn6mfh9jLyQwg5aPKxkyNa0PTHtU1AlFXLNk55ZuAeJRcpvq+tmLfKmaQ==
 
+"@designable/core@1.0.0-beta.45":
+  version "1.0.0-beta.45"
+  resolved "https://registry.npmmirror.com/@designable/core/-/core-1.0.0-beta.45.tgz#779010f2f33aa2ea48c11f6ace05744805e85518"
+  integrity sha512-zCN2O9HlVaqcd90KCl1OtsWTBMX4+xcWfew9sqxQfOE9GWc2VENw2IpbHcIsGaEDhklmZZ83vnDrivjwhZMMsw==
+  dependencies:
+    "@designable/shared" "1.0.0-beta.45"
+    "@juggle/resize-observer" "^3.3.1"
+
+"@designable/formily-setters@1.0.0-beta.45":
+  version "1.0.0-beta.45"
+  resolved "https://registry.npmmirror.com/@designable/formily-setters/-/formily-setters-1.0.0-beta.45.tgz#3e9fd5e6de75c20438e56ad3d75004c9fe49403d"
+  integrity sha512-55FZUdnON1cZH9PxHZlyS6k5dkCU5/XSvkDOQXmL+OLYK+OeovX6I6d4S/hzMpqcq65Qc5DJjYwVoKygkr1jAA==
+  dependencies:
+    "@designable/core" "1.0.0-beta.45"
+    "@designable/formily-transformer" "1.0.0-beta.45"
+    "@designable/react" "1.0.0-beta.45"
+    "@designable/react-settings-form" "1.0.0-beta.45"
+
+"@designable/formily-transformer@1.0.0-beta.45":
+  version "1.0.0-beta.45"
+  resolved "https://registry.npmmirror.com/@designable/formily-transformer/-/formily-transformer-1.0.0-beta.45.tgz#9c5da20fac6b93f1185a2e7b47177d91f8e42cc1"
+  integrity sha512-8qr21jzv0wLmXRGBkuANzgXGwLgZZVMeBqyfcEIBWS+XCnsFL3Jte5ggh6icAzv7BWWYkuzXcXVFRrRw6nCX8g==
+  dependencies:
+    "@designable/core" "1.0.0-beta.45"
+    "@designable/shared" "1.0.0-beta.45"
+
+"@designable/react-settings-form@1.0.0-beta.45":
+  version "1.0.0-beta.45"
+  resolved "https://registry.npmmirror.com/@designable/react-settings-form/-/react-settings-form-1.0.0-beta.45.tgz#1a3f6c382bd87f50ba2292007d01e7d027e92f57"
+  integrity sha512-DJS0jxQ0YkIeKHe/CT6BwD5fx810GSs/2vtQv3xbLvuxS3ax+YXhtJyMLCRadnNTxZYjzQMbyYOGbB47gWQdyw==
+  dependencies:
+    "@babel/parser" "^7.14.7"
+    "@designable/core" "1.0.0-beta.45"
+    "@designable/react" "1.0.0-beta.45"
+    "@designable/shared" "1.0.0-beta.45"
+    "@monaco-editor/react" "^4.2.1"
+    monaco-editor "^0.25.2"
+    prettier "^2.3.2"
+    react-color "^2.19.3"
+    react-tiny-popover "^6.0.5"
+
+"@designable/react@1.0.0-beta.45":
+  version "1.0.0-beta.45"
+  resolved "https://registry.npmmirror.com/@designable/react/-/react-1.0.0-beta.45.tgz#d6b592904c55bce969959c14ec846a6dc262556c"
+  integrity sha512-zZQ7cIl+X1ntXCNkeesCeMtLChWbFLsKTNmMVA6gS1wUWIlWb2aFQg/cM3P2JVmu2ovBE5EEEnomC94Nwz390A==
+  dependencies:
+    "@designable/core" "1.0.0-beta.45"
+    "@designable/shared" "1.0.0-beta.45"
+    "@juggle/resize-observer" "^3.3.1"
+    dateformat "^4.5.1"
+
+"@designable/shared@1.0.0-beta.45":
+  version "1.0.0-beta.45"
+  resolved "https://registry.yarnpkg.com/@designable/shared/-/shared-1.0.0-beta.45.tgz#b45c7c91ecbe5ec7ee433e7a837175268b209d2c"
+  integrity sha512-gHbTp+LlpIOvKg2QX6iq8BotNn98Dnf2/xc2fXJfWz97YlbSDEqYaPiCAQYHGoucAjj1BWYZQFdNar1FdOfR9g==
+  dependencies:
+    requestidlecallback "^0.3.0"
+
 "@dnd-kit/accessibility@^3.0.0":
   version "3.0.1"
   resolved "https://registry.npmmirror.com/@dnd-kit/accessibility/-/accessibility-3.0.1.tgz#3ccbefdfca595b0a23a5dc57d3de96bc6935641c"
@@ -11698,6 +11756,11 @@ modify-values@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/modify-values/-/modify-values-1.0.1.tgz#b3939fa605546474e3e3e3c63d64bd43b4ee6022"
   integrity sha512-xV2bxeN6F7oYjZWTe/YPAy6MN2M+sL4u/Rlm2AHCIVGfo2p1yGmBHQ6vHehl4bRTZBdHu3TSkWdYgkwpYzAGSw==
+
+moment@^2.29.4:
+  version "2.29.4"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
+  integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
 
 monaco-editor-webpack-plugin@^4.0.0:
   version "4.2.0"

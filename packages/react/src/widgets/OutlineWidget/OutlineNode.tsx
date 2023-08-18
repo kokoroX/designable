@@ -5,7 +5,7 @@ import {
   CursorStatus,
   DragMoveEvent,
 } from '@kokoro/designable-core'
-import { isFn } from '@designable/shared'
+import { isFn } from '@kokoro/designable-shared'
 import { autorun } from '@formily/reactive'
 import { observer } from '@formily/reactive-react'
 import {

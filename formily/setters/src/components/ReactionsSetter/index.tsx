@@ -3,7 +3,7 @@ import { clone, uid } from '@formily/shared'
 import { createForm, isVoidField } from '@formily/core'
 import { createSchemaField } from '@formily/react'
 import { GlobalRegistry } from '@kokoro/designable-core'
-import { requestIdle } from '@designable/shared'
+import { requestIdle } from '@kokoro/designable-shared'
 import { usePrefix, TextWidget } from '@kokoro/designable-react'
 import { MonacoInput } from '@kokoro/designable-react-settings-form'
 import {

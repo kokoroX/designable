@@ -1,7 +1,7 @@
 import React from 'react'
 import { isVoidField, onFieldReact } from '@formily/core'
 import { TreeNode, GlobalRegistry } from '@kokoro/designable-core'
-import { isStr } from '@designable/shared'
+import { isStr } from '@kokoro/designable-shared'
 import { IconWidget } from '@kokoro/designable-react'
 
 const takeIcon = (message: string) => {

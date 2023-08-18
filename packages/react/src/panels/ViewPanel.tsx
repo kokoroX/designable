@@ -3,7 +3,7 @@ import { TreeNode, ITreeNode, WorkbenchTypes } from '@kokoro/designable-core'
 import { observer } from '@formily/reactive-react'
 import { useTree, useWorkbench } from '../hooks'
 import { Viewport } from '../containers'
-import { requestIdle } from '@designable/shared'
+import { requestIdle } from '@kokoro/designable-shared'
 
 export interface IViewPanelProps {
   type: WorkbenchTypes

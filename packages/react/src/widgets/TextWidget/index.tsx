@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { isStr, isPlainObj } from '@designable/shared'
+import { isStr, isPlainObj } from '@kokoro/designable-shared'
 import { GlobalRegistry, IDesignerMiniLocales } from '@kokoro/designable-core'
 import { observer } from '@formily/reactive-react'
 
