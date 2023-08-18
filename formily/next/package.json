@@ -1,6 +1,6 @@
 {
   "name": "@kokoro/designable-formily-next",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "main": "lib",
   "module": "esm",
@@ -29,7 +29,7 @@
     "@formily/react": "^2.2.0",
     "@formily/reactive": "^2.2.0",
     "@formily/shared": "^2.2.0",
-    "@kokoro/designable-react-settings-form": "1.0.3",
+    "@kokoro/designable-react-settings-form": "1.0.4",
     "autoprefixer": "^9.0",
     "file-loader": "^5.0.2",
     "fs-extra": "^8.1.0",
@@ -61,13 +61,13 @@
     "react-is": ">=16.8.0 || >=17.0.0"
   },
   "dependencies": {
-    "@kokoro/designable-core": "1.0.3",
-    "@kokoro/designable-formily-setters": "1.0.3",
-    "@kokoro/designable-formily-transformer": "1.0.3",
-    "@kokoro/designable-react": "1.0.3"
+    "@kokoro/designable-core": "1.0.4",
+    "@kokoro/designable-formily-setters": "1.0.4",
+    "@kokoro/designable-formily-transformer": "1.0.4",
+    "@kokoro/designable-react": "1.0.4"
   },
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "2c44ae410a73f02735c63c6430e021a50e21f3ec"
+  "gitHead": "2a27d66766435ab9b2a1a261665bf9a9de694c96"
 }

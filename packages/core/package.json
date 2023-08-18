@@ -1,6 +1,6 @@
 {
   "name": "@kokoro/designable-core",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -34,10 +34,10 @@
   },
   "dependencies": {
     "@juggle/resize-observer": "^3.3.1",
-    "@kokoro/designable-shared": "1.0.3"
+    "@kokoro/designable-shared": "1.0.4"
   },
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "bda070c137ba0003cc4451b2208e089d2e326b23"
+  "gitHead": "2a27d66766435ab9b2a1a261665bf9a9de694c96"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@kokoro/designable-formily-setters",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "main": "lib",
   "module": "esm",
@@ -42,13 +42,13 @@
     "react-is": ">=16.8.0 || >=17.0.0"
   },
   "dependencies": {
-    "@kokoro/designable-core": "1.0.3",
-    "@kokoro/designable-formily-transformer": "1.0.3",
-    "@kokoro/designable-react": "1.0.3",
-    "@kokoro/designable-react-settings-form": "1.0.3"
+    "@kokoro/designable-core": "1.0.4",
+    "@kokoro/designable-formily-transformer": "1.0.4",
+    "@kokoro/designable-react": "1.0.4",
+    "@kokoro/designable-react-settings-form": "1.0.4"
   },
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "2c44ae410a73f02735c63c6430e021a50e21f3ec"
+  "gitHead": "2a27d66766435ab9b2a1a261665bf9a9de694c96"
 }
