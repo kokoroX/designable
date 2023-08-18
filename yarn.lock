@@ -1170,6 +1170,16 @@
     "@designable/react" "1.0.0-beta.45"
     "@designable/react-settings-form" "1.0.0-beta.45"
 
+"@designable/formily-setters@npm:@kokoro/designable-formily-setters@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@kokoro/designable-formily-setters/-/designable-formily-setters-1.0.1.tgz#ff7e8a3c29217478a48388de858f14a18ece7e96"
+  integrity sha512-YBdN/IdOnx1n8ZOlooEr6RDBMR3hGb5gQuRqzckob0ZKQDqCyLsKfUaB9avqxbB3E1T2s3gLiWMzxIrJtW8t5Q==
+  dependencies:
+    "@kokoro/designable-core" "1.0.1"
+    "@kokoro/designable-formily-transformer" "1.0.1"
+    "@kokoro/designable-react" "1.0.1"
+    "@kokoro/designable-react-settings-form" "1.0.1"
+
 "@designable/formily-transformer@1.0.0-beta.45":
   version "1.0.0-beta.45"
   resolved "https://registry.npmmirror.com/@designable/formily-transformer/-/formily-transformer-1.0.0-beta.45.tgz#9c5da20fac6b93f1185a2e7b47177d91f8e42cc1"
@@ -1177,6 +1187,14 @@
   dependencies:
     "@designable/core" "1.0.0-beta.45"
     "@designable/shared" "1.0.0-beta.45"
+
+"@designable/formily-transformer@npm:@kokoro/designable-formily-transformer@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@kokoro/designable-formily-transformer/-/designable-formily-transformer-1.0.1.tgz#aca1ef5f52bb74808de82b4ed179878928617ec5"
+  integrity sha512-r6Qk8Qqnf4lbelBKOzkBN950YvE9xcNPvKraYfkwWyzA1IHczJPgFq9ANEGUUFxHLLLpjvpVXrcFC/kgjTYbYw==
+  dependencies:
+    "@kokoro/designable-core" "1.0.1"
+    "@kokoro/designable-shared" "1.0.1"
 
 "@designable/react-settings-form@1.0.0-beta.45":
   version "1.0.0-beta.45"
