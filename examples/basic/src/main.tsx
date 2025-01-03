@@ -21,7 +21,7 @@ import {
   SettingsForm,
   MonacoInput,
 } from '@kokoro/designable-react-settings-form'
-import { observer } from '@formily/react'
+import { FormProvider, observer } from '@formily/react'
 import {
   createDesigner,
   createResource,
@@ -31,6 +31,8 @@ import {
 import { Content } from './content'
 import { Space, Button, Radio } from 'antd'
 import { GithubOutlined } from '@ant-design/icons'
+import { createForm } from '@formily/core'
+import { useMemo } from 'react'
 //import { Sandbox } from '@kokoro/designable-react-sandbox'
 
 const RootBehavior = createBehavior({
@@ -401,57 +403,64 @@ const Actions = observer(() => {
 
 const engine = createDesigner()
 const App = () => {
+  const form = useMemo(() => createForm(), [])
+
   return (
-    <Designer engine={engine}>
-      <Workbench>
-        <StudioPanel logo={<Logo />} actions={<Actions />}>
-          <CompositePanel>
-            <CompositePanel.Item title="panels.Component" icon="Component">
-              <ResourceWidget title="sources.Inputs" sources={[Input, Card]} />
-              <ResourceWidget
-                title="sources.Displays"
-                sources={[Input, Card]}
-              />
-              <ResourceWidget
-                title="sources.Feedbacks"
-                sources={[Input, Card]}
-              />
-            </CompositePanel.Item>
-            <CompositePanel.Item title="panels.OutlinedTree" icon="Outline">
-              <OutlineTreeWidget />
-            </CompositePanel.Item>
-            <CompositePanel.Item title="panels.History" icon="History">
-              <HistoryWidget />
-            </CompositePanel.Item>
-          </CompositePanel>
-          <WorkspacePanel>
-            <ToolbarPanel>
-              <DesignerToolsWidget />
-              <ViewToolsWidget />{' '}
-            </ToolbarPanel>
-            <ViewportPanel>
-              <ViewPanel type="DESIGNABLE">{() => <Content />}</ViewPanel>
-              <ViewPanel type="JSONTREE">
-                {() => {
-                  return (
-                    <div style={{ overflow: 'hidden', height: '100%' }}>
-                      <MonacoInput
-                        language="javascript"
-                        helpCode="//hello world"
-                        defaultValue={`<div><div>123123<div>123123<div>123123<div>123123</div></div></div></div></div>`}
-                      />
-                    </div>
-                  )
-                }}
-              </ViewPanel>
-            </ViewportPanel>
-          </WorkspacePanel>
-          <SettingsPanel title="panels.PropertySettings">
-            <SettingsForm uploadAction="https://www.mocky.io/v2/5cc8019d300000980a055e76" />
-          </SettingsPanel>
-        </StudioPanel>
-      </Workbench>
-    </Designer>
+    <FormProvider form={form}>
+      <Designer engine={engine}>
+        <Workbench>
+          <StudioPanel logo={<Logo />} actions={<Actions />}>
+            <CompositePanel>
+              <CompositePanel.Item title="panels.Component" icon="Component">
+                <ResourceWidget
+                  title="sources.Inputs"
+                  sources={[Input, Card]}
+                />
+                <ResourceWidget
+                  title="sources.Displays"
+                  sources={[Input, Card]}
+                />
+                <ResourceWidget
+                  title="sources.Feedbacks"
+                  sources={[Input, Card]}
+                />
+              </CompositePanel.Item>
+              <CompositePanel.Item title="panels.OutlinedTree" icon="Outline">
+                <OutlineTreeWidget />
+              </CompositePanel.Item>
+              <CompositePanel.Item title="panels.History" icon="History">
+                <HistoryWidget />
+              </CompositePanel.Item>
+            </CompositePanel>
+            <WorkspacePanel>
+              <ToolbarPanel>
+                <DesignerToolsWidget />
+                <ViewToolsWidget />{' '}
+              </ToolbarPanel>
+              <ViewportPanel>
+                <ViewPanel type="DESIGNABLE">{() => <Content />}</ViewPanel>
+                <ViewPanel type="JSONTREE">
+                  {() => {
+                    return (
+                      <div style={{ overflow: 'hidden', height: '100%' }}>
+                        <MonacoInput
+                          language="javascript"
+                          helpCode="//hello world"
+                          defaultValue={`<div><div>123123<div>123123<div>123123<div>123123</div></div></div></div></div>`}
+                        />
+                      </div>
+                    )
+                  }}
+                </ViewPanel>
+              </ViewportPanel>
+            </WorkspacePanel>
+            <SettingsPanel title="panels.PropertySettings">
+              <SettingsForm uploadAction="https://www.mocky.io/v2/5cc8019d300000980a055e76" />
+            </SettingsPanel>
+          </StudioPanel>
+        </Workbench>
+      </Designer>
+    </FormProvider>
   )
 }
 

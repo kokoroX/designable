@@ -52,10 +52,10 @@ export default {
   },
   externals: {
     // '@formily/reactive': 'Formily.Reactive',
-    react: 'React',
-    'react-dom': 'ReactDOM',
+    // react: 'React',
+    // 'react-dom': 'ReactDOM',
     moment: 'moment',
-    antd: 'antd',
+    // antd: 'antd',
   },
   module: {
     rules: [

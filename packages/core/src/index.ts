@@ -3,7 +3,7 @@ export * from './exports'
 import { globalThisPolyfill } from '@kokoro/designable-shared'
 
 if (globalThisPolyfill?.['Designable']?.['Core']) {
-  if (module && module.exports) {
+  if (module.exports) {
     module.exports = {
       __esModule: true,
       ...globalThisPolyfill['Designable']['Core'],

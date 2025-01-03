@@ -31,3 +31,7 @@ This project exists thanks to all the people who contribute.
 <p>
 <a href="https://github.com/alibaba/designable/graphs/contributors"><img src="https://contrib.rocks/image?repo=alibaba/designable" /></a>
 </p>
+
+## 处理报错
+
+export NODE_OPTIONS=--openssl-legacy-provider

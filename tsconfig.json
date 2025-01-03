@@ -13,7 +13,6 @@
     "skipLibCheck": true,
     "experimentalDecorators": true,
     "downlevelIteration": true,
-    "preserveSymlinks": true,
     "baseUrl": ".",
     "paths": {
       "@kokoro/designable-*": ["./packages/*/src"]
