@@ -1,6 +1,6 @@
 {
   "name": "@kokoro/designable-formily-transformer",
-  "version": "1.0.6-alpha.0",
+  "version": "1.0.6-alpha.1",
   "license": "MIT",
   "main": "lib",
   "engines": {
@@ -32,8 +32,8 @@
     "@formily/json-schema": "^2.3.0"
   },
   "dependencies": {
-    "@kokoro/designable-core": "1.0.6-alpha.0",
-    "@kokoro/designable-shared": "1.0.6-alpha.0"
+    "@kokoro/designable-core": "1.0.6-alpha.1",
+    "@kokoro/designable-shared": "1.0.6-alpha.1"
   },
   "gitHead": "2a27d66766435ab9b2a1a261665bf9a9de694c96"
 }
