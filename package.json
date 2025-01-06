@@ -12,7 +12,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean",
-    "build": "rimraf -rf packages/*/{lib,esm} && lerna run build",
+    "build": "rimraf -rf packages/*/{lib,esm} && lerna run build --scope @kokoro/**",
     "build:docs": "dumi build",
     "start": "dumi dev",
     "start:playground": "npm run start:basic",
