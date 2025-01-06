@@ -7,7 +7,6 @@
   "engines": {
     "npm": ">=3.0.0"
   },
-  "module": "esm",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alibaba/designable.git"
