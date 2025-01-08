@@ -39,11 +39,8 @@ export const InputItems: React.FC<IInputItemsProps> & {
   )
 }
 
-InputItems.defaultProps = {
-  width: '100%',
-}
-
 InputItems.Item = (props) => {
+  const { width = '100%' } = props
   const prefix = usePrefix('input-items-item')
   const ctx = useContext(InputItemsContext)
   return (
@@ -51,7 +48,7 @@ InputItems.Item = (props) => {
       className={cls(prefix, props.className, {
         vertical: props.vertical || ctx.vertical,
       })}
-      style={{ width: props.width || ctx.width, ...props.style }}
+      style={{ width: width || ctx.width, ...props.style }}
     >
       {props.icon && (
         <div className={prefix + '-icon'}>

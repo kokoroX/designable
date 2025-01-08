@@ -12,8 +12,10 @@ export interface IViewToolsWidget {
   className?: string
 }
 
+const DEFAULT_USE = ['DESIGNABLE', 'JSONTREE', 'PREVIEW']
+
 export const ViewToolsWidget: React.FC<IViewToolsWidget> = observer(
-  ({ use, style, className }) => {
+  ({ use = DEFAULT_USE, style, className }) => {
     const workbench = useWorkbench()
     const prefix = usePrefix('view-tools')
     return (
@@ -66,7 +68,3 @@ export const ViewToolsWidget: React.FC<IViewToolsWidget> = observer(
     )
   }
 )
-
-ViewToolsWidget.defaultProps = {
-  use: ['DESIGNABLE', 'JSONTREE', 'PREVIEW'],
-}
